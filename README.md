@@ -1,13 +1,29 @@
-/* Profile picture styling */
-.member img {
-  width: 150px; /* Adjust dimensions as needed */
-  height: 150px;
-  border-radius: 50%; /* Create rounded profile pictures */
-  object-fit: cover; /* Maintain aspect ratio and crop if necessary */
-  /* Add any additional styling here */
+/* Button styling */
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-/* Adjust spacing between members */
-.member {
-  margin-bottom: 20px; /* Add spacing between members */
+/* Hover effect */
+.custom-button:hover {
+  background-color: #45a049;
+}
+
+/* Active effect */
+.custom-button:active {
+  background-color: #3e8e41;
+}
+
+/* Disabled effect */
+.custom-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
